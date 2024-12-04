@@ -47,9 +47,10 @@ const Sidebar = () => {
                   {item.title}
                 </p>
                 {item.links.map((link) => {
-                  const isActive = window.location.pathname.startsWith(
-                    link.path
+                  const isActive = window.location.hash.startsWith(
+                    `#${link.path}`
                   )
+
                   const isHovered = hoveredLink === link.name
 
                   return (

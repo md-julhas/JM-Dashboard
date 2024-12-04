@@ -1,5 +1,3 @@
-// Error.jsx
-
 import React from "react"
 import { useStateContext } from "../contextProvider/contextProvider"
 
@@ -16,7 +14,7 @@ const Error = () => {
           We're sorry, but the page you requested could not be found.
         </p>
         <a
-          href="/"
+          href="/#/"
           className="text-gray-100 px-6 py-3 rounded-lg shadow-lg transition-colors duration-300 ease-in-out inline-block hover:opacity-90"
           style={{ backgroundColor: themeColor }}
         >

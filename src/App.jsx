@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { useStateContext } from "./contextProvider/contextProvider"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import {
   CreateNewPassword,
   Analytics,
@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <HashRouter>
         <div className={`${themeMode === "dark" ? "dark" : "light"}`}>
           <Routes>
             {/* Auth routes */}
@@ -102,7 +102,7 @@ const App = () => {
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </HelmetProvider>
   )
 }
