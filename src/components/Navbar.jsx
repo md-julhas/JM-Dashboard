@@ -154,7 +154,7 @@ const Navbar = () => {
             </button>
 
             <div
-              className="absolute text-xs text-gray-200 rounded-full top-0 right-0 px-1 py-0 flex items-center justify-center"
+              className="absolute text-xs text-gray-200 rounded-full top-0 right-0 px-1 py-0 flex items-center justify-center select-none"
               style={{ backgroundColor: themeColor }}
             >
               {cartItemsData.length}
