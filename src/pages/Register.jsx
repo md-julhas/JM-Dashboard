@@ -74,7 +74,7 @@ const Register = () => {
     if (validateForm()) {
       setIsLoading(true)
       setTimeout(() => {
-        navigate("/dashboard")
+        navigate("/ecommerce")
         setIsLoading(false)
       }, 1000)
     }
