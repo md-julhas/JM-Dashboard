@@ -107,6 +107,5 @@ User profile page with features like:
 - **Vite**: Fast build tool for modern web applications.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **React Router**: For seamless navigation between pages.
-- **Axios**: For making HTTP requests (if applicable).
 - **Local Storage**: For saving theme preferences (dark/light mode).
 
