@@ -67,7 +67,7 @@ const Login = () => {
   return (
     <div>
       <Helmet>
-        <title>Authentication | JM dashboard</title>
+        <title>Authentication Login | JM dashboard</title>
       </Helmet>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center text-gray-600 dark:text-darkText">
