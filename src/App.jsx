@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import { useStateContext } from "./contextProvider/contextProvider"
-import { HashRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HelmetProvider } from "react-helmet-async"
+
 import {
   CreateNewPassword,
   Analytics,
@@ -26,7 +28,6 @@ import {
   ProductDetail,
   UserProfile,
 } from "./pages"
-import { HelmetProvider } from "react-helmet-async"
 
 const App = () => {
   const { themeMode, setActiveMenu, screenSize, setScreenSize } =
@@ -50,7 +51,7 @@ const App = () => {
 
   return (
     <HelmetProvider>
-      <HashRouter>
+      <BrowserRouter>
         <div className={`${themeMode === "dark" ? "dark" : "light"}`}>
           <Routes>
             {/* Auth routes */}
@@ -102,7 +103,7 @@ const App = () => {
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     </HelmetProvider>
   )
 }

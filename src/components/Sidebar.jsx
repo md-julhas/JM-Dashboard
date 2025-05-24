@@ -1,11 +1,12 @@
 import React, { useState } from "react"
 import { useStateContext } from "../contextProvider/contextProvider"
 import { links } from "../constants/data"
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 
 const Sidebar = () => {
   const { activeMenu, setActiveMenu, themeColor } = useStateContext()
   const [hoveredLink, setHoveredLink] = useState(null)
+  const location = useLocation()
 
   return (
     <>
@@ -47,9 +48,7 @@ const Sidebar = () => {
                   {item.title}
                 </p>
                 {item.links.map((link) => {
-                  const isActive = window.location.hash.startsWith(
-                    `#${link.path}`
-                  )
+                  const isActive = location.pathname.startsWith(`${link.path}`)
 
                   const isHovered = hoveredLink === link.name
 
