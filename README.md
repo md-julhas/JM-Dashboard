@@ -14,7 +14,6 @@ You can view the live demo of the JM Dashboard template [Click Here](https://jmd
 - Contains quick navigation links to all major sections.
 
 ### Navbar
-- A compact and functional navbar includes:
 - **Settings Icon**: Access to theme customization like dark/light mode and color settings.
 - **Dark Mode Toggle**: Easily switch between dark and light themes.
 - **Cart Icon**: Displays cart status with a badge showing the number of items.
