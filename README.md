@@ -1,10 +1,10 @@
 # JM Dashboard
 
 ## Overview
-JM Dashboard is a comprehensive React-based dashboard template designed for e-commerce and business analytics. It includes a wide variety of sections and features tailored for managing e-commerce platforms, viewing analytics, customer interactions, task management, and user profiles. Built with Vite and Tailwind CSS, this dashboard provides a fast, responsive, and customizable interface for managing and analyzing business data.
+**JM Dashboard** is a comprehensive React-based dashboard template designed for e-commerce and business analytics. It includes a wide variety of sections and features tailored for managing e-commerce platforms, viewing analytics, customer interactions, task management, and user profiles. Built with Vite and Tailwind CSS, this dashboard provides a fast, responsive, and customizable interface for managing and analyzing business data.
 
 ### Live Demo
-You can view the live demo of the JM Dashboard [here](https://md-julhas.github.io/jm-dashboard/#/ecommerce).
+You can view the live demo of the JM Dashboard template [Click Here](https://jmdashboard.vercel.app/).
 
 
 ## Features
