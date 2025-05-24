@@ -15,11 +15,11 @@ You can view the live demo of the JM Dashboard template [Click Here](https://jmd
 
 ### Navbar
 - A compact and functional navbar includes:
-  - **Settings Icon**: Access to theme customization like dark/light mode and color settings.
-  - **Dark Mode Toggle**: Easily switch between dark and light themes.
-  - **Cart Icon**: Displays cart status with a badge showing the number of items.
-  - **Notification Bell**: Indicates new notifications with a red dot.
-  - **User Profile**: Displays the user's avatar for profile access or dropdown menu.
+- **Settings Icon**: Access to theme customization like dark/light mode and color settings.
+- **Dark Mode Toggle**: Easily switch between dark and light themes.
+- **Cart Icon**: Displays cart status with a badge showing the number of items.
+- **Notification Bell**: Indicates new notifications with a red dot.
+- **User Profile**: Displays the user's avatar for profile access or dropdown menu.
 
 ### Mobile Responsive
 - The dashboard is fully responsive and provides a great user experience on mobile, tablet, and desktop devices.
